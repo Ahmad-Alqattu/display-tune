@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.ahmad_alqattu.DisplayTune</id>
+  <name>Display Tune</name>
+  <name xml:lang="ar">ضبط الشاشات</name>
+  <name xml:lang="ru">Настройка экранов</name>
+  <name xml:lang="de">Bildschirmanpassung</name>
+  <summary>Brightness, contrast, gamma, warmth and saturation for every display</summary>
+  <summary xml:lang="ar">السطوع والتباين والجاما والدفء والتشبع لكل شاشة</summary>
+  <summary xml:lang="ru">Яркость, контраст, гамма, температура и насыщенность для каждого экрана</summary>
+  <summary xml:lang="de">Helligkeit, Kontrast, Gamma, Farbtemperatur und Sättigung für jeden Bildschirm</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <developer id="io.github.ahmad_alqattu">
+    <name>Ahmad Alqattu</name>
+  </developer>
+
+  <description>
+    <p>
+      Display Tune gives every connected display its own brightness, contrast, gamma,
+      color warmth and saturation, with a page per display and settings that follow the
+      monitor to whichever port it is plugged into.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Real hardware brightness: mutter's backlight for the laptop panel, DDC/CI for
+        external monitors that support it, software dimming otherwise</li>
+      <li>Hardware contrast for monitors that support DDC/CI</li>
+      <li>Contrast, gamma and color warmth applied through the GPU gamma table: no
+        flicker, no GPU cost, works in fullscreen games and video</li>
+      <li>Per-display saturation, including with several monitors at once, through a
+        bundled GNOME Shell extension</li>
+      <li>Saved presets, copying settings between displays, and export/import</li>
+      <li>A Quick Settings toggle next to Wi-Fi and Bluetooth</li>
+      <li>A test pattern for judging black level, white level, gamma and color balance</li>
+      <li>English, Arabic, Russian and German interface</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.ahmad_alqattu.DisplayTune.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>One page per display</caption>
+      <image>https://raw.githubusercontent.com/Ahmad-Alqattu/display-tune/v1.0.0/screenshots/screenshot-en.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Real hardware brightness and contrast for a supported external monitor</caption>
+      <image>https://raw.githubusercontent.com/Ahmad-Alqattu/display-tune/v1.0.0/screenshots/screenshot-en-external.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Quick Settings toggle, presets and brightness sliders</caption>
+      <image>https://raw.githubusercontent.com/Ahmad-Alqattu/display-tune/v1.0.0/screenshots/quicksettings.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/Ahmad-Alqattu/display-tune</url>
+  <url type="bugtracker">https://github.com/Ahmad-Alqattu/display-tune/issues</url>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2026-09-17">
+      <description>
+        <p>First release: per-display brightness, contrast, gamma, warmth and saturation,
+          a Quick Settings toggle, presets, export/import, and an English/Arabic/Russian/
+          German interface.</p>
+      </description>
+    </release>
+  </releases>
+</component>

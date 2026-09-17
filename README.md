@@ -95,6 +95,8 @@ Everything is installed for your user only (`~/.local`); no root is needed. **Lo
 
 To update, `git pull` and run `./install.sh` again. To remove: `./install.sh --uninstall`.
 
+A system-wide RPM (`packaging/display-tune.spec`, for Fedora COPR) is also available — see [`packaging/README.md`](packaging/README.md).
+
 ## Command line
 
 ```sh

@@ -82,6 +82,8 @@ cd display-tune
 - **للتحديث:** `git pull` ثم `./install.sh` مجددًا.
 - **للإزالة:** `./install.sh --uninstall`.
 
+في كمان حزمة RPM لكل النظام (`packaging/display-tune.spec`، لـ Fedora COPR) — راجع [`packaging/README.md`](packaging/README.md).
+
 ## سطر الأوامر
 
 <div dir="ltr">
