@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Display Tune
+Name[ar]=ضبط الشاشات
+Comment=Brightness, contrast, gamma, warmth and saturation for every display
+Comment[ar]=السطوع والتباين والجاما والدفء والتشبع لكل شاشة
+Exec=@BIN@/display-tune
+Icon=io.github.ahmad_alqattu.DisplayTune
+Terminal=false
+Categories=GTK;GNOME;Settings;HardwareSettings;
+Keywords=display;monitor;screen;brightness;contrast;gamma;color;saturation;warmth;ddc;شاشة;سطوع;تباين;ألوان;تشبع;
+StartupNotify=true

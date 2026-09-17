@@ -1,0 +1,9 @@
+{
+  "uuid": "display-tune-saturation@ahmad-alqattu.github.io",
+  "name": "Display Tune Saturation",
+  "description": "Per-monitor saturation shader used by Display Tune. Fork of zb3's Saturation Extension that re-renders its offscreen buffer for every stage view, which fixes flicker with multiple monitors.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.display-tune-saturation",
+  "url": "https://github.com/Ahmad-Alqattu/display-tune",
+  "version": 1
+}

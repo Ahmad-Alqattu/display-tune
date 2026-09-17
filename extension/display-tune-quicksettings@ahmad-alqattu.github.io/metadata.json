@@ -1,0 +1,8 @@
+{
+  "uuid": "display-tune-quicksettings@ahmad-alqattu.github.io",
+  "name": "Display Tune",
+  "description": "Quick Settings toggle for Display Tune: turn color adjustments on/off, apply a preset, and adjust brightness of every display without opening the app.",
+  "shell-version": ["50"],
+  "url": "https://github.com/Ahmad-Alqattu/display-tune",
+  "version": 1
+}

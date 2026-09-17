@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffa348"/>
+      <stop offset="0.5" stop-color="#dc8add"/>
+      <stop offset="1" stop-color="#62a0ea"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e5c64"/>
+      <stop offset="1" stop-color="#3d3846"/>
+    </linearGradient>
+    <linearGradient id="stand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a9996"/>
+      <stop offset="1" stop-color="#77767b"/>
+    </linearGradient>
+  </defs>
+  <path d="M50 92h28l4 18H46z" fill="url(#stand)"/>
+  <rect x="34" y="106" width="60" height="10" rx="5" fill="#5e5c64"/>
+  <rect x="34" y="104" width="60" height="8" rx="4" fill="url(#stand)"/>
+  <rect x="8" y="14" width="112" height="82" rx="12" fill="url(#body)"/>
+  <rect x="16" y="22" width="96" height="62" rx="5" fill="url(#screen)"/>
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.92">
+    <line x1="30" y1="38" x2="98" y2="38" opacity="0.55"/>
+    <line x1="30" y1="53" x2="98" y2="53" opacity="0.55"/>
+    <line x1="30" y1="68" x2="98" y2="68" opacity="0.55"/>
+  </g>
+  <g fill="#ffffff" stroke="#241f31" stroke-opacity="0.25" stroke-width="1.5">
+    <circle cx="74" cy="38" r="6.5"/>
+    <circle cx="48" cy="53" r="6.5"/>
+    <circle cx="84" cy="68" r="6.5"/>
+  </g>
+</svg>

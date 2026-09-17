@@ -1,0 +1,12 @@
+[Unit]
+Description=Display Tune: restore per-display color settings on login and display changes
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=@BIN@/display-tune --daemon
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
