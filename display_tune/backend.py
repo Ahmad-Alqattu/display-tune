@@ -32,9 +32,11 @@ B_MIN, _B_MAX = LIMITS['brightness_sw']
 
 
 def default_language():
+    from .i18n import LANGUAGES        # local import: avoid a hard dependency for CLI-only use
     for name in GLib.get_language_names():
-        if name.startswith('ar'):
-            return 'ar'
+        code = name.split('_')[0].split('.')[0]
+        if code in LANGUAGES:
+            return code
     return 'en'
 
 

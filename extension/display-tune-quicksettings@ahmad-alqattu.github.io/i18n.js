@@ -18,6 +18,22 @@ const STRINGS = {
         presetsNone: 'ما في إعدادات محفوظة',
         cliMissing: 'ضبط الشاشات مش مركّب صح',
     },
+    ru: {
+        title: 'Настройка экранов',
+        builtin: 'Экран ноутбука',
+        openApp: 'Открыть «Настройку экранов»',
+        resetAll: 'Сбросить все цвета',
+        presetsNone: 'Нет сохранённых профилей',
+        cliMissing: 'Display Tune установлена некорректно',
+    },
+    de: {
+        title: 'Bildschirmanpassung',
+        builtin: 'Laptop-Bildschirm',
+        openApp: 'Bildschirmanpassung öffnen',
+        resetAll: 'Alle Farben zurücksetzen',
+        presetsNone: 'Noch keine gespeicherten Profile',
+        cliMissing: 'Display Tune ist nicht korrekt installiert',
+    },
 };
 
 function pickLanguage() {

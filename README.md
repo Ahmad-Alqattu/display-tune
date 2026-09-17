@@ -6,7 +6,7 @@
 
 <p align="center">
   Brightness, contrast, gamma, color warmth and saturation for <b>every display</b> on GNOME Wayland,<br>
-  with a native GTK 4 / libadwaita interface in English and Arabic.
+  with a native GTK 4 / libadwaita interface in English, Arabic, Russian and German.
 </p>
 
 <p align="center"><a href="README.ar.md">العربية</a></p>
@@ -41,7 +41,7 @@ GNOME has no built-in way to make a dull laptop panel look more vivid, dim an ex
   opening the app
 - **Test pattern** for judging black level, white level, gamma and color balance
 - **Command line** for scripts and keyboard shortcuts
-- **English and Arabic** (right-to-left) interface; the language follows the system and can be switched from the menu
+- **English, Arabic (right-to-left), Russian and German** interface; the language follows the system (falling back to English) and can be switched from the menu
 
 <p align="center">
   <img src="screenshots/screenshot-en-external.png" width="46%" alt="External monitor with hardware controls">
@@ -127,7 +127,7 @@ With more than one monitor, that approach made the screen "dance" when switching
 
 ## Contributing
 
-Issues and pull requests are welcome, especially testing on other GNOME versions and distributions. To add a translation, copy the `en` block in [`display_tune/i18n.py`](display_tune/i18n.py) and add your language to `LANGUAGES`.
+Issues and pull requests are welcome, especially testing on other GNOME versions and distributions. To add a translation, copy the `en` block in [`display_tune/i18n.py`](display_tune/i18n.py) and add your language to `LANGUAGES`. The Quick Settings extension has its own small copy of the same strings in [`extension/display-tune-quicksettings@ahmad-alqattu.github.io/i18n.js`](extension/display-tune-quicksettings@ahmad-alqattu.github.io/i18n.js) — add it there too.
 
 ## Credits and license
 
